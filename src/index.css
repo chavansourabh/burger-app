@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.card {
+  height: 200px;
+  width: 80vw;
+  background-color: cornflowerblue;
+  border-radius: 40px;
+  margin: 15px;
+  padding: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.visited {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: green;
+  margin-top: 15px;
+}
+.not-visited {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  margin-top: 15px;
+  background-color: red;
+}
